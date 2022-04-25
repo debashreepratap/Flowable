@@ -1,0 +1,42 @@
+{
+  "name": "Flowable Demo",
+  "groups": [
+    {
+      "key": "flowableAdministrator",
+      "name": "Flowable Administrator"
+    },
+    {
+      "key": "flowableUser",
+      "name": "Flowable User"
+    }
+  ],
+  "users": [
+    {
+      "firstName": "Flowable",
+      "lastName": "Admin",
+      "login": "admin",
+      "email": "admin@demo.flowable.io",
+      "language": "en",
+      "theme": "flowable",
+      "userDefinitionKey": "admin"
+    },
+    {
+      "firstName": "Awesome",
+      "lastName": "Candidate 1",
+      "login": "awesomeCandidateUser1",
+      "email": "admin@demo.flowable.io",
+      "language": "en",
+      "theme": "flowable",
+      "userDefinitionKey": "user"
+    },
+    {
+      "firstName": "Awesome",
+      "lastName": "Candidate 3",
+      "login": "awesomeCandidateUser3",
+      "email": "admin@demo.flowable.io",
+      "language": "en",
+      "theme": "flowable",
+      "userDefinitionKey": "user"
+    }
+  ]
+}

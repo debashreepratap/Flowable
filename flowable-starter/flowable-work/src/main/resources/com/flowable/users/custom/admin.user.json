@@ -1,0 +1,114 @@
+[
+  {
+    "key": "admin",
+    "name": "Flowable Administration User",
+    "initialUserSubType": "admin",
+    "initialState": "ACTIVE",
+    "initialSubState": "ACTIVE",
+    "memberGroups": [
+      "flowableUser",
+      "flowableAdministrator"
+    ],
+    "lookupGroups": [
+      "flowableUser"
+    ],
+    "actionPermissions": {
+      "create": [
+        "flowableAdministrator"
+      ],
+      "edit": [
+        "flowableAdministrator"
+      ],
+      "deactivate": [
+        "flowableAdministrator"
+      ],
+      "activate": [
+        "flowableAdministrator"
+      ]
+    },
+    "initialVariables": {
+      "adminUser": true,
+      "description": "Admin"
+    },
+    "conversationFilters": [
+      "all"
+    ],
+    "contactFilters": [
+      "all",
+      "internal",
+      "external",
+      "inactive",
+      "clientsWithoutCa"
+    ],
+    "allowedFeatures": [ 
+      "createUser",
+      "reports",
+      "actuators",
+      "user-mgmt",
+      "search-api",
+      "workobject-api",
+      "templateManagement",
+      "markdownInput",
+      "replyToMessage",
+      "forwardMessage",
+      "reactToMessage",
+      "fileUpload",
+      "work",
+      "createWork",
+      "tasks",
+      "documents",
+      "impersonateUser",
+      "changeOwnPassword",
+      "changeOwnTheme",
+      "editOwnAvatar",
+      "themeManagement",
+      "contacts", 
+      "createUser", 
+      "reports", 
+      "reportsMetrics",
+      "actuators", "user-mgmt", "search-api", "workobject-api", "templateManagement",
+      "conversations", "websockets", "createConversation", "sendMessageFromProfile", "emojiPicker", "markdownInput",
+      "editMessage", "deleteMessage", "fileUpload", "audioMessage", "videoMessage", "slashActions",
+      "work", "tasks", "editAvatar"]
+  },
+  {
+    "key": "user",
+    "name": "Flowable User",
+    "allowedFeatures": [
+      "cases",
+      "changeContactPassword",
+      "changeOwnPassword",
+      "createUser",
+      "createWork",
+      "editContactAvatar",
+      "editOwnAvatar",
+      "processes",
+      "reports",
+      "reportsMetrics",
+      "tasks",
+      "templateManagement",
+      "websockets",
+      "work"
+    ],
+    "memberGroups": [
+      "flowableUser"
+    ],
+    "lookupGroups": [
+      "flowableUser"
+    ],
+    "actionPermissions": {
+      "create": [
+        "flowableAdministrator"
+      ],
+      "edit": [
+        "flowableAdministrator"
+      ],
+      "deactivate": [
+        "flowableAdministrator"
+      ],
+      "activate": [
+        "flowableAdministrator"
+      ]
+    }
+  }
+]
